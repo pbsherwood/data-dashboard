@@ -9,7 +9,7 @@ $end_date_string = $_POST["end_date"];
 
 if (array_key_exists($query_type, $query_types))
 {
-	$database = new Database__Query("gotgamer_weather");
+	$database = new Database__Query("DATABASE");
 	foreach($query_types[$query_type]["sql_clauses"] as $clause)
 	{
 		$database->add_clause($clause);
