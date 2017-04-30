@@ -7,3 +7,5 @@ To use:
     - $this->dbconn = mysqli_connect("SERVER","USERNAME","PASSWORD");
   - query_types.php
     - $query_types = array();
+  - get_data.php
+    - $database = new Database__Query("DATABASE");
